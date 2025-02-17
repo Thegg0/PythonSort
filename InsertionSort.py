@@ -12,7 +12,7 @@ def insertionSort(arr):
 			j -= 1
 		arr[j+1] = key 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
   arr = [12, 11, 13, 5, 6]
   insertionSort(arr)
   print(arr)
