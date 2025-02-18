@@ -1,5 +1,5 @@
 def selectionSort(List):
-  for i in range(len(List) - 1):
+  for i in range(len(List) - 1,-1,-1):
     minimum = i
     for j in range(i + 1 , len(List)):
       if(List[j] < List[minimum]):
